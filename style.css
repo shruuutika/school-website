@@ -3,3 +3,18 @@ footer .left{
     margin-top: 4rem;
     display: flex;
 }
+
+@media screen and (max-width:768px) {
+    .right a{
+        display: none;
+    }
+    #platform{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    #footer .btn{
+        display: none;
+    }
+}
